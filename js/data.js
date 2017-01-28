@@ -12,7 +12,7 @@ var vizHackData =
       "html_url": "https://openspending.org/ukgov-finances-cra/cofog1/04",
       "label": "უსაფრთხოება",
       "id": "root__1",
-      "amount": 29661104778.05999,
+      "amount": 209661104778.05999,
       "children": [
         {
           "name": "04.5",
