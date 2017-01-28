@@ -36,7 +36,7 @@ OpenSpending.BubbleMap = function (config) {
     opts = $.extend(true, {
         currency: null,
         openspendingjs: 'http://openspending.org/static/openspendingjs',
-        loaderText: 'loading spending data',
+        loaderText: '<div class="spinner"></div>',
         query: {
             apiUrl: 'http://openspending.org/api',
             dataset: null,
