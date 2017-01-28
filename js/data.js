@@ -6,7 +6,7 @@ var vizHackData =
   "currency": "GEL",
   "children": [
     {
-      "name": "01",
+      "name": "07",
       "color": "#9900cc",
       "taxonomy": "cofog-1",
       "html_url": "https://openspending.org/ukgov-finances-cra/cofog1/01",
@@ -808,7 +808,7 @@ var vizHackData =
       "currency": "GBP"
     },
     {
-      "name": "07",
+      "name": "06.99",
       "color": "#cc0066",
       "taxonomy": "cofog-1",
       "html_url": "https://openspending.org/ukgov-finances-cra/cofog1/07",

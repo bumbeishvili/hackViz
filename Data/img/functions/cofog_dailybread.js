@@ -6,6 +6,8 @@
 var OpenSpending = OpenSpending || {};
 OpenSpending.Styles = OpenSpending.Styles || {};
 
+//todo map all icons
+
 OpenSpending.Styles.Cofog = {
 	'01': { icon: 'img/functions/government-uk.svg', color: '#C75746' },
 	'01.1': { icon: 'img/functions/legislative.svg' },
