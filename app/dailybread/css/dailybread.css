@@ -1,5 +1,7 @@
 /** Layout */
-
+circle{
+	fill:"black" !important;
+}
 .layout-row, .db-area-row {
   width: 100%;
   overflow: auto; /* row expands to contain children */
@@ -31,7 +33,7 @@
 }
 
 #db-header h1 {
-	color: #830242;
+	color: #f02d49;
 	font-size: 2.5em;
 	text-transform: uppercase;
 }
@@ -61,7 +63,7 @@
 #db-topbar div p {
 	margin: 0;
 	padding: 0;
-	color: #830242;
+	color: #343961;
 	font-size: 1.5em;
 	font-weight: bold;
 }
@@ -87,12 +89,12 @@
 
 .wdmmg-slider.ui-widget-content {
 	background: none;
-	background-color: #830242;
+	background-color: #f02d49;
 	height: 6px;
 }
 
 .wdmmg-slider.ui-slider-horizontal .ui-slider-handle {
-	background: url('../img/pound-slider.png') transparent no-repeat;
+	background: url('/app/dailybread/img/pound-slider.png') transparent no-repeat;
 	height: 17px;
 	width: 17px;
 	border: none;
@@ -135,7 +137,7 @@
 }
 
 .db-area-col.active {
-	color: #830242;
+	color: #343961;
 	font-weight: bold;
 }
 
@@ -163,7 +165,7 @@
 }
 
 .db-area-col.active .db-area-icon path {
-  fill: #830242;
+  fill: #f02d49;
   stroke: none;
 }
 
