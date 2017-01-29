@@ -33,7 +33,7 @@ var vizHackData =
               "amount": 42529187000
             }
           },
-          "currency": "GBP"
+          "currency": "GEL"
         },
         {
           "name": "01.1",
@@ -158,7 +158,7 @@ var vizHackData =
               "amount": 14695817000
             }
           },
-          "currency": "GBP"
+          "currency": "GEL"
         },
         {
           "name": "01.2",
@@ -283,7 +283,7 @@ var vizHackData =
               "amount": 0
             }
           },
-          "currency": "GBP"
+          "currency": "GEL"
         },
         {
           "name": "01.8",
@@ -312,7 +312,7 @@ var vizHackData =
               "amount": -5669402000
             }
           },
-          "currency": "GBP"
+          "currency": "GEL"
         },
         {
           "name": "01.3",
@@ -437,7 +437,7 @@ var vizHackData =
               "amount": 11700000
             }
           },
-          "currency": "GBP"
+          "currency": "GEL"
         },
         {
           "name": "01.6",
@@ -562,7 +562,7 @@ var vizHackData =
               "amount": 103734000
             }
           },
-          "currency": "GBP"
+          "currency": "GEL"
         }
       ],
       "level": 1,
@@ -680,7 +680,7 @@ var vizHackData =
           "amount": 51671036000
         }
       },
-      "currency": "GBP"
+      "currency": "GEL"
     },
     {
       "name": "02",
@@ -805,7 +805,7 @@ var vizHackData =
           "amount": 35305264000
         }
       },
-      "currency": "GBP"
+      "currency": "GEL"
     },
     {
       "name": "06.99",
@@ -930,7 +930,7 @@ var vizHackData =
           "amount": 348077954.84
         }
       },
-      "currency": "GBP"
+      "currency": "GEL"
     },
     {
       "name": "10",
@@ -1055,7 +1055,7 @@ var vizHackData =
           "amount": 0
         }
       },
-      "currency": "GBP"
+      "currency": "GEL"
     },
     {
       "name": "08",
@@ -1180,7 +1180,7 @@ var vizHackData =
           "amount": 4888000000
         }
       },
-      "currency": "GBP"
+      "currency": "GEL"
     },
     {
       "name": "09",
@@ -1305,7 +1305,7 @@ var vizHackData =
           "amount": 0
         }
       },
-      "currency": "GBP"
+      "currency": "GEL"
     },
     {
       "name": "04",
@@ -1430,7 +1430,7 @@ var vizHackData =
           "amount": 1749413304.34
         }
       },
-      "currency": "GBP"
+      "currency": "GEL"
     },
     {
       "name": "03",
@@ -1555,7 +1555,7 @@ var vizHackData =
           "amount": 1910448000
         }
       },
-      "currency": "GBP"
+      "currency": "GEL"
     },
     {
       "name": "06",
@@ -1672,7 +1672,7 @@ var vizHackData =
           "amount": 0
         }
       },
-      "currency": "GBP"
+      "currency": "GEL"
     },
     {
       "name": "06",
@@ -1789,7 +1789,7 @@ var vizHackData =
           "amount": 0
         }
       },
-      "currency": "GBP"
+      "currency": "GEL"
     },
     {
       "name": "05",
