@@ -12,7 +12,7 @@ BubbleTreeStyles.Cofog1 = {
 	'03': { icon: 'order-safety.svg', color: '#EC2406' }, 
 	'04': { icon: 'social-systems.svg', color: '#790586' }, 
 	'05': { icon: 'environment.svg', color: '#2A3A03' },	
-	'06': { icon: 'test.svg', color: '#b29ba4' },		
+	'06': { icon: 'wheelchair.svg', color: '#b29ba4' },		
 	'07': { icon: 'health.svg', color: '#4E6D00' },											
 	'08': { icon: 'culture.svg', color: '#938626' },					
 	'09': { icon: 'education.svg' },			
