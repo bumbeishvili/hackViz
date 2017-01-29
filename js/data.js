@@ -1,12 +1,12 @@
 var vizHackData = 
 {
   "id": "root",
-  "label": "Total",
+  "label": "საქართველოს ბიუჯეტი",
   "color": "#555",
   "currency": "GEL",
   "children": [
     {
-      "name": "06",
+      "name": "01",
       "color": "#9900cc",
       "taxonomy": "cofog-1",
       "html_url": "https://openspending.org/ukgov-finances-cra/cofog1/01",
@@ -687,7 +687,7 @@ var vizHackData =
       "color": "#999933",
       "taxonomy": "cofog-1",
       "html_url": "https://openspending.org/ukgov-finances-cra/cofog1/02",
-      "label": "დასვენება,კულტურა, რელიგია",
+      "label": "კულტურა",
       "id": "root__9",
       "amount": 235300000,
       "level": 1,
@@ -808,11 +808,11 @@ var vizHackData =
       "currency": "GEL"
     },
     {
-      "name": "06.99",
+      "name": "05",
       "color": "#cc0066",
       "taxonomy": "cofog-1",
       "html_url": "https://openspending.org/ukgov-finances-cra/cofog1/07",
-      "label": "ჯანმრთელობის დაცვა",
+      "label": "ჯანდაცვა",
       "id": "root__4",
       "amount": 999500000,
       "level": 1,
@@ -928,131 +928,6 @@ var vizHackData =
           "name": "not-identifiable",
           "label": "NOT IDENTIFIABLE",
           "amount": 348077954.84
-        }
-      },
-      "currency": "GEL"
-    },
-    {
-      "name": "10",
-      "color": "#ff3300",
-      "taxonomy": "cofog-1",
-      "html_url": "https://openspending.org/ukgov-finances-cra/cofog1/10",
-      "label": "წყალმომამარგება და სხვა კომუნალური მეურნეობა",
-      "id": "root__7",
-      "amount": 36900000,
-      "level": 1,
-      "breakdowns": {
-        "1": {
-          "taxonomy": "cra-region",
-          "html_url": "https://openspending.org/ukgov-finances-cra/region/scotland",
-          "id": "1",
-          "name": "scotland",
-          "label": "SCOTLAND",
-          "amount": 15619768524.219997
-        },
-        "2": {
-          "taxonomy": "cra-region",
-          "html_url": "https://openspending.org/ukgov-finances-cra/region/wales",
-          "id": "2",
-          "name": "wales",
-          "label": "WALES",
-          "amount": 10132756964.88
-        },
-        "3": {
-          "taxonomy": "cra-region",
-          "html_url": "https://openspending.org/ukgov-finances-cra/region/northern-ireland",
-          "id": "3",
-          "name": "northern-ireland",
-          "label": "NORTHERN IRELAND",
-          "amount": 7854035536.8099985
-        },
-        "4": {
-          "taxonomy": "cra-region",
-          "html_url": "https://openspending.org/ukgov-finances-cra/region/england-north-east",
-          "id": "4",
-          "name": "england-north-east",
-          "label": "ENGLAND_North East",
-          "amount": 8416266566.33
-        },
-        "5": {
-          "taxonomy": "cra-region",
-          "html_url": "https://openspending.org/ukgov-finances-cra/region/england-north-west",
-          "id": "5",
-          "name": "england-north-west",
-          "label": "ENGLAND_North West",
-          "amount": 21343729349.200005
-        },
-        "6": {
-          "taxonomy": "cra-region",
-          "html_url": "https://openspending.org/ukgov-finances-cra/region/england-yorkshire-and-the-humber",
-          "id": "6",
-          "name": "england-yorkshire-and-the-humber",
-          "label": "ENGLAND_Yorkshire and The Humber",
-          "amount": 15038209887.790003
-        },
-        "7": {
-          "taxonomy": "cra-region",
-          "html_url": "https://openspending.org/ukgov-finances-cra/region/england-east-midlands",
-          "id": "7",
-          "name": "england-east-midlands",
-          "label": "ENGLAND_East Midlands",
-          "amount": 12412681591.05
-        },
-        "8": {
-          "taxonomy": "cra-region",
-          "html_url": "https://openspending.org/ukgov-finances-cra/region/england-west-midlands",
-          "id": "8",
-          "name": "england-west-midlands",
-          "label": "ENGLAND_West Midlands",
-          "amount": 16271675305.100004
-        },
-        "9": {
-          "taxonomy": "cra-region",
-          "html_url": "https://openspending.org/ukgov-finances-cra/region/england-east",
-          "id": "9",
-          "name": "england-east",
-          "label": "ENGLAND_East",
-          "amount": 14927096406.090002
-        },
-        "10": {
-          "taxonomy": "cra-region",
-          "html_url": "https://openspending.org/ukgov-finances-cra/region/england-london",
-          "id": "10",
-          "name": "england-london",
-          "label": "ENGLAND_London",
-          "amount": 17808371547.180004
-        },
-        "11": {
-          "taxonomy": "cra-region",
-          "html_url": "https://openspending.org/ukgov-finances-cra/region/england-south-east",
-          "id": "11",
-          "name": "england-south-east",
-          "label": "ENGLAND_South East",
-          "amount": 21059269734.540005
-        },
-        "12": {
-          "taxonomy": "cra-region",
-          "html_url": "https://openspending.org/ukgov-finances-cra/region/england-south-west",
-          "id": "12",
-          "name": "england-south-west",
-          "label": "ENGLAND_South West",
-          "amount": 14944465657.67
-        },
-        "13": {
-          "taxonomy": "cra-region",
-          "html_url": "https://openspending.org/ukgov-finances-cra/region/outside-uk",
-          "id": "13",
-          "name": "outside-uk",
-          "label": "OUTSIDE UK",
-          "amount": 3678257107.76
-        },
-        "14": {
-          "taxonomy": "cra-region",
-          "html_url": "https://openspending.org/ukgov-finances-cra/region/not-identifiable",
-          "id": "14",
-          "name": "not-identifiable",
-          "label": "NOT IDENTIFIABLE",
-          "amount": 0
         }
       },
       "currency": "GEL"
@@ -1187,7 +1062,7 @@ var vizHackData =
       "color": "#3333cc",
       "taxonomy": "cofog-1",
       "html_url": "https://openspending.org/ukgov-finances-cra/cofog1/09",
-      "label": "ეკონომიკა და ტურიზმი",
+      "label": "ეკონომიკა",
       "id": "root__6",
       "amount": 292000000,
       "level": 1,
@@ -1308,11 +1183,11 @@ var vizHackData =
       "currency": "GEL"
     },
     {
-      "name": "04",
+      "name": "07",
       "color": "#33cc33",
       "taxonomy": "cofog-1",
       "html_url": "https://openspending.org/ukgov-finances-cra/cofog1/04",
-      "label": "გზების მშენებლობა სატრანსპორტო ინფრასტრუქტურა",
+      "label": "ინფრასტრუქტურა",
       "id": "root__1",
       "amount": 883000000,
       "level": 1,
@@ -1433,7 +1308,7 @@ var vizHackData =
       "currency": "GEL"
     },
     {
-      "name": "03",
+      "name": "10",
       "color": "#0099cc",
       "taxonomy": "cofog-1",
       "html_url": "https://openspending.org/ukgov-finances-cra/cofog1/03",
@@ -1558,124 +1433,7 @@ var vizHackData =
       "currency": "GEL"
     },
     {
-      "name": "06",
-      "color": "#cc6666",
-      "taxonomy": "cofog-1",
-      "html_url": "https://openspending.org/ukgov-finances-cra/cofog1/06",
-      "label": "საზოგადოებრივი წესრიგი და უსაფრთხოება",
-      "id": "root__10",
-      "amount": 1028400000,
-      "level": 1,
-      "breakdowns": {
-        "1": {
-          "taxonomy": "cra-region",
-          "html_url": "https://openspending.org/ukgov-finances-cra/region/scotland",
-          "id": "1",
-          "name": "scotland",
-          "label": "SCOTLAND",
-          "amount": 1422317000
-        },
-        "2": {
-          "taxonomy": "cra-region",
-          "html_url": "https://openspending.org/ukgov-finances-cra/region/wales",
-          "id": "2",
-          "name": "wales",
-          "label": "WALES",
-          "amount": 248455138
-        },
-        "3": {
-          "taxonomy": "cra-region",
-          "html_url": "https://openspending.org/ukgov-finances-cra/region/northern-ireland",
-          "id": "3",
-          "name": "northern-ireland",
-          "label": "NORTHERN IRELAND",
-          "amount": 750178200
-        },
-        "4": {
-          "taxonomy": "cra-region",
-          "html_url": "https://openspending.org/ukgov-finances-cra/region/england-north-east",
-          "id": "4",
-          "name": "england-north-east",
-          "label": "ENGLAND_North East",
-          "amount": 104704977.33000001
-        },
-        "5": {
-          "taxonomy": "cra-region",
-          "html_url": "https://openspending.org/ukgov-finances-cra/region/england-north-west",
-          "id": "5",
-          "name": "england-north-west",
-          "label": "ENGLAND_North West",
-          "amount": 282178670.09000003
-        },
-        "6": {
-          "taxonomy": "cra-region",
-          "html_url": "https://openspending.org/ukgov-finances-cra/region/england-yorkshire-and-the-humber",
-          "id": "6",
-          "name": "england-yorkshire-and-the-humber",
-          "label": "ENGLAND_Yorkshire and The Humber",
-          "amount": 149659404.03
-        },
-        "7": {
-          "taxonomy": "cra-region",
-          "html_url": "https://openspending.org/ukgov-finances-cra/region/england-east-midlands",
-          "id": "7",
-          "name": "england-east-midlands",
-          "label": "ENGLAND_East Midlands",
-          "amount": 186235792.35
-        },
-        "8": {
-          "taxonomy": "cra-region",
-          "html_url": "https://openspending.org/ukgov-finances-cra/region/england-west-midlands",
-          "id": "8",
-          "name": "england-west-midlands",
-          "label": "ENGLAND_West Midlands",
-          "amount": 189616843.24000004
-        },
-        "9": {
-          "taxonomy": "cra-region",
-          "html_url": "https://openspending.org/ukgov-finances-cra/region/england-east",
-          "id": "9",
-          "name": "england-east",
-          "label": "ENGLAND_East",
-          "amount": 344388663.89
-        },
-        "10": {
-          "taxonomy": "cra-region",
-          "html_url": "https://openspending.org/ukgov-finances-cra/region/england-london",
-          "id": "10",
-          "name": "england-london",
-          "label": "ENGLAND_London",
-          "amount": 1262615655.7
-        },
-        "11": {
-          "taxonomy": "cra-region",
-          "html_url": "https://openspending.org/ukgov-finances-cra/region/england-south-east",
-          "id": "11",
-          "name": "england-south-east",
-          "label": "ENGLAND_South East",
-          "amount": 610134428.7700001
-        },
-        "12": {
-          "taxonomy": "cra-region",
-          "html_url": "https://openspending.org/ukgov-finances-cra/region/england-south-west",
-          "id": "12",
-          "name": "england-south-west",
-          "label": "ENGLAND_South West",
-          "amount": 285353059.36
-        },
-        "13": {
-          "taxonomy": "cra-region",
-          "html_url": "https://openspending.org/ukgov-finances-cra/region/outside-uk",
-          "id": "13",
-          "name": "outside-uk",
-          "label": "OUTSIDE UK",
-          "amount": 0
-        }
-      },
-      "currency": "GEL"
-    },
-    {
-      "name": "06",
+      "name": "03",
       "color": "#cc6666",
       "taxonomy": "cofog-1",
       "html_url": "https://openspending.org/ukgov-finances-cra/cofog1/06",
@@ -1792,11 +1550,11 @@ var vizHackData =
       "currency": "GEL"
     },
     {
-      "name": "05",
+      "name": "04",
       "color": "#006633",
       "taxonomy": "cofog-1",
       "html_url": "https://openspending.org/ukgov-finances-cra/cofog1/05",
-      "label": "ბიუროკრატიული ხარჯები",
+      "label": "მთავრობა",
       "id": "root__3",
       "amount": 1995900000,
       "level": 1,
@@ -1917,7 +1675,7 @@ var vizHackData =
       "currency": "GEL"
     },
       {
-      "name": "05",
+      "name": "08",
       "color": "#006633",
       "taxonomy": "cofog-1",
       "html_url": "https://openspending.org/ukgov-finances-cra/cofog1/05",

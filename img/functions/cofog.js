@@ -9,14 +9,14 @@ var BubbleTreeStyles = BubbleTreeStyles || {};
 BubbleTreeStyles.Cofog1 = {
 	'01': { icon: 'government-uk.svg', color: '#C75746' },
 	'02': { icon: 'defence.svg', color: '#0AB971' },
-	'03': { icon: 'order-safety.svg', color: '#EC2406' }, 
-	'04': { icon: 'social-systems.svg', color: '#790586' }, 
-	'05': { icon: 'environment.svg', color: '#2A3A03' },	
-	'06': { icon: 'wheelchair.svg', color: '#b29ba4' },		
+	'03': { icon: 'books.svg', color: '#eab532' }, 
+	'04': { icon: 'social-systems.svg', color: '#343961' }, 
+	'05': { icon: 'hospital-specialized.svg', color: '#f02d49' },	
+	'06': { icon: 'foreign-military-aid.svg', color: '#829943' },		
 	'07': { icon: 'health.svg', color: '#4E6D00' },											
-	'08': { icon: 'culture.svg', color: '#938626' },					
-	'09': { icon: 'education.svg' },			
-	'10': { icon: 'helping-others.svg', color: '#935B3B' }	
+	'08': { icon: 'wheelchair.svg', color: '#f02d49' },					
+	'09': { icon: 'coal.svg', color: '#7bb7ad' },			
+	'10': { icon: 'farms.svg', color: '#70a43d' }	
 }
 
 BubbleTreeStyles.Cofog2 = {
