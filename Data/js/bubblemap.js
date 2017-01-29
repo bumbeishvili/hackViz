@@ -1,5 +1,5 @@
 var OpenSpending = OpenSpending || {};
-debugger;
+
 OpenSpending.getBubbleMapDependencies = function(os_path) {
     os_path="";
     var result =  [
@@ -29,7 +29,7 @@ OpenSpending.getBubbleMapDependencies = function(os_path) {
 };
 
 OpenSpending.BubbleMap = function (config) {
-     debugger;
+
     var self = this;
 
     var formatAmount = BubbleTree.Utils.formatNumber = OpenSpending.Utils.formatAmount;
@@ -187,7 +187,7 @@ OpenSpending.BubbleMap = function (config) {
             callback: function(data) {
                 $('#wdmmg-bubbletree').empty();
                 var currency = opts.currency || data.currency;
-                debugger;
+           
                 data=  vizHackData||{};
 
                 self.bt = new BubbleTree({
