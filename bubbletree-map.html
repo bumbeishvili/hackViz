@@ -22,6 +22,8 @@
   <script src="js/modernizr-2.5.3.min.js"></script>
   <script src="js/jquery.min.js"></script>
   <script src="js/data.js"></script>
+  <script src="js/count.js"></script>
+
   <style>
   .bubbletree .amount { 
 	font-family: Georgia, sans-serif; 
@@ -64,7 +66,7 @@
 }
 </style>-->
 <link rel="stylesheet" href="css/vertical.news.slider.css?v=1.0">
-
+<link rel="stylesheet" href="css/count.css">
 </head>
 
 <body>
@@ -95,6 +97,9 @@
     </script>
 </div>
 </header>
+
+
+
 
 <div class="container">
   <script src="Data/js/bubblemap.js"></script>
@@ -151,7 +156,21 @@
 
 
 
-
+<div id="shiva">
+        <script type="text/javascript">
+      $('.count').each(function () {
+    $(this).prop('Counter',0).animate({
+        Counter: $(this).text()
+    }, {
+        duration: 4000,
+        easing: 'swing',
+        step: function (now) {
+            $(this).text(Math.ceil(now));
+        }
+    });
+});
+    </script><span class="count">200</span>
+</div>
 </div>
   <div class="news-holder cf">
   <!--<script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>-->
@@ -168,28 +187,28 @@
     <div class="news-preview">
 
       <div class="news-content top-content">
-        <img src="/img/news/shota100.PNG">
+        <img src="img/news/shota100.PNG">
         <!--<p><a href="#">მთავრობამ შიდა ვალის გეგმა 180 მილიონით გაზარდა</a></p>-->
 
         <p>სახელმწიფოს მიერ გამოშვებული ფასიანი ქაღალდების, სახაზინო ობლიგაციების და სახაზინო ვალდებულებების საპროცენტო განაკვეთები გაიზარდა.</p>
       </div><!-- .news-content -->
 
       <div class="news-content">
-        <img src="/img/news/Parlament_of_Georgia_Kutaisi.jpg">
+        <img src="img/news/Parlament_of_Georgia_Kutaisi.jpg">
         <!--<p><a href="#">პარლამენტმა გადასახადების ზრდას მხარი დაუჭირა</a></p>-->
 
         <p>პარლამენტმა ბიუჯეტთან თანდართულ საგადასახადო ცვლილებათა პაკეტს მხარი დაუჭირა, რის შედეგადაც მთელი რიგი გადასახადები იზრდება.</p>
       </div><!-- .news-content -->
 
       <div class="news-content">
-        <img src="/img/news/shota100.PNG">
+        <img src="img/news/shota100.PNG">
         <!--<p><a href="#">გადასახადების ზრდით მთავრობა 518 მილიონის მობილიზებას გეგმავს</a></p>-->
 
         <p>თამბაქოს აქციზის განაკვეთის ზრდით ბიუჯეტის საშემოსავლო ნაწილი სავარაუდოდ გაიზრდება 190-200 მილიონი ლარით.</p>
       </div><!-- .news-content -->
 
       <div class="news-content">
-        <img src="/img/news/kvirika.png">
+        <img src="img/news/kvirika.png">
         <!--<p><a href="#">პრემიერი: ხარჯების 30%-ით შემცირებაზე ჩვენ არავითარ შემთხვევაში არ წავალთ</a></p>-->
 
         <p>საქართველოს პრემიერის გიორგი კვირიკაშვილის განცხადებით, მთავრობა ხარჯებს 30%-ით არავითარ შემთხვევაში არ შეამცირებს.</p>
