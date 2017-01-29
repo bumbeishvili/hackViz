@@ -1,7 +1,5 @@
 /** Layout */
-circle{
-	fill:"black" !important;
-}
+
 .layout-row, .db-area-row {
   width: 100%;
   overflow: auto; /* row expands to contain children */
@@ -33,7 +31,7 @@ circle{
 }
 
 #db-header h1 {
-	color: #f02d49;
+	color: #830242;
 	font-size: 2.5em;
 	text-transform: uppercase;
 }
@@ -63,7 +61,7 @@ circle{
 #db-topbar div p {
 	margin: 0;
 	padding: 0;
-	color: #343961;
+	color: #830242;
 	font-size: 1.5em;
 	font-weight: bold;
 }
@@ -89,12 +87,12 @@ circle{
 
 .wdmmg-slider.ui-widget-content {
 	background: none;
-	background-color: #f02d49;
+	background-color: #830242;
 	height: 6px;
 }
 
 .wdmmg-slider.ui-slider-horizontal .ui-slider-handle {
-	background: url('/app/dailybread/img/pound-slider.png') transparent no-repeat;
+	background: url('../img/pound-slider.png') transparent no-repeat;
 	height: 17px;
 	width: 17px;
 	border: none;
@@ -137,7 +135,7 @@ circle{
 }
 
 .db-area-col.active {
-	color: #343961;
+	color: #830242;
 	font-weight: bold;
 }
 
@@ -165,7 +163,7 @@ circle{
 }
 
 .db-area-col.active .db-area-icon path {
-  fill: #f02d49;
+  fill: #830242;
   stroke: none;
 }
 
