@@ -1,7 +1,7 @@
 var OpenSpending = OpenSpending || {};
 debugger;
 OpenSpending.getBubbleMapDependencies = function(os_path) {
-    return [
+    var result =  [
         os_path + '/lib/vendor/base64.js',
         os_path + '/lib/boot.js',
         os_path + '/lib/vendor/accounting.js',
@@ -20,8 +20,10 @@ OpenSpending.getBubbleMapDependencies = function(os_path) {
         os_path + '/lib/vendor/datatables/dataTables.bootstrap.js',
         os_path + '/app/data_table/openspending.data_table.js',
         os_path + '/app/bubblemap/map.css',
-        'data/js/bubblemap.js'
+        'Data/js/bubblemap.js'
         ];
+        console.log(result);
+        return result;
 };
 
 OpenSpending.BubbleMap = function (config) {
