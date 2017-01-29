@@ -21,7 +21,8 @@ OpenSpending.getBubbleMapDependencies = function(os_path) {
         // os_path + 'lib/vendor/datatables/dataTables.bootstrap.js',
         os_path + 'app/data_table/openspending.data_table.js',
         os_path + 'app/bubblemap/map.css',
-        'Data/js/bubblemap.js'
+        'Data/js/bubblemap.js',
+        'https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css'
         ];
         console.log(result);
         return result;
