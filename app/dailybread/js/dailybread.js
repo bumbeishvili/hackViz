@@ -6,7 +6,7 @@ TAXMAN_URL = 'http://taxman.openspending.org';
 
 var formatCurrency = function (val, prec, sym, dec, sep) {
   prec = prec === undefined ? 2 : prec
-  sym = sym || '£'
+  sym = sym || '₾'
   dec = dec || '.'
   sep = sep || ','
 
@@ -228,7 +228,7 @@ OpenSpending.DailyBread = function (elem, opts) {
       var iconUrl, paper;
       iconUrl = $(e).data('svg-url');
       paper = Raphael(e, iconRad+iconRad,iconRad+iconRad+5);
-      paper.circle(iconRad,iconRad,iconRad).attr({ fill: '#830242', stroke: 'none' });
+      paper.circle(iconRad,iconRad,iconRad).attr({ fill: '#f02d49', stroke: 'none' });
       paper.circle(iconRad,iconRad,iconRad-2).attr({ fill: 'none', stroke: '#eee', opacity: .8, 'stroke-dasharray': '- ' });
       $.get(iconUrl, function(svg) {
         if (typeof(svg) == "string") {

@@ -12,8 +12,8 @@ BubbleTreeStyles.Cofog1 = {
 	'03': { icon: 'books.svg', color: '#eab532' }, 
 	'04': { icon: 'planning.svg', color: '#343961' }, 
 	'05': { icon: 'hospital-specialized.svg', color: '#f02d49' },	
-	'06': { icon: 'foreign-military-aid.svg', color: '#829943' },		
-	'07': { icon: 'health.svg', color: '#4E6D00' },											
+	'06': { icon: 'military.svg', color: '#829943' },		
+	'07': { icon: 'manufactoring-construction.svg', color: '#96967d' },											
 	'08': { icon: 'wheelchair.svg', color: '#f02d49' },					
 	'09': { icon: 'coal.svg', color: '#7bb7ad' },			
 	'10': { icon: 'farms.svg', color: '#70a43d' }	
