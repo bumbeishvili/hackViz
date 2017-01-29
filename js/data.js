@@ -10,7 +10,7 @@ var vizHackData =
       "color": "#9900cc",
       "taxonomy": "cofog-1",
       "html_url": "https://openspending.org/ukgov-finances-cra/cofog1/01",
-      "label": "თავდაცვა და უსაფრთხოება",
+      "label": "უსაფრთხოება",
       "id": "root__2",
       "amount": 1706000000,
       "children": [
@@ -19,7 +19,7 @@ var vizHackData =
           "color": "#9900cc",
           "taxonomy": "cofog-2",
           "html_url": "https://openspending.org/ukgov-finances-cra/cofog2/01.7",
-          "label": "თავდაცვის სამინისტრო",
+          "label": "თავდაცვა",
           "id": "root__2__66",
           "amount": 677000000,
           "level": 2,
