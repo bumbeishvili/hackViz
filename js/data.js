@@ -2,7 +2,7 @@ var vizHackData =
 {
   "id": "root",
   "label": "საქართველოს ბიუჯეტი",
-  "color": "#555",
+  "color": "#7bb7ad",
   "currency": "GEL",
   "children": [
     {
@@ -15,7 +15,7 @@ var vizHackData =
       "amount": 1706000000,
       "children": [
         {
-          "name": "01.7",
+          "name": "111",
           "color": "#9900cc",
           "taxonomy": "cofog-2",
           "html_url": "https://openspending.org/ukgov-finances-cra/cofog2/01.7",
@@ -36,7 +36,7 @@ var vizHackData =
           "currency": "GEL"
         },
         {
-          "name": "01.1",
+          "name": "111",
           "color": "#9900cc",
           "taxonomy": "cofog-2",
           "html_url": "https://openspending.org/ukgov-finances-cra/cofog2/01.1",
@@ -161,7 +161,7 @@ var vizHackData =
           "currency": "GEL"
         },
         {
-          "name": "01.2",
+          "name": "111",
           "color": "#9900cc",
           "taxonomy": "cofog-2",
           "html_url": "https://openspending.org/ukgov-finances-cra/cofog2/01.2",
@@ -286,7 +286,7 @@ var vizHackData =
           "currency": "GEL"
         },
         {
-          "name": "01.8",
+          "name": "111",
           "color": "#9900cc",
           "taxonomy": "cofog-2",
           "html_url": "https://openspending.org/ukgov-finances-cra/cofog2/01.8",
@@ -315,7 +315,7 @@ var vizHackData =
           "currency": "GEL"
         },
         {
-          "name": "01.3",
+          "name": "111",
           "color": "#9900cc",
           "taxonomy": "cofog-2",
           "html_url": "https://openspending.org/ukgov-finances-cra/cofog2/01.3",
@@ -440,7 +440,7 @@ var vizHackData =
           "currency": "GEL"
         },
         {
-          "name": "01.6",
+          "name": "111",
           "color": "#9900cc",
           "taxonomy": "cofog-2",
           "html_url": "https://openspending.org/ukgov-finances-cra/cofog2/01.6",
