@@ -70,7 +70,7 @@ BubbleTree.Styles.Cofog = {
 	'05.4': { icon: 'styles/icons/tree.svg' },
 	'05.6': { icon: 'styles/icons/environment-admin.svg' },
 	
-	'06': { icon: 'styles/icons/our-streets.svg', color: '#D33673' },		
+	'06': { icon: 'styles/icons/environment.svg', color: '#D33673' },		
 	'06.1': { icon: 'styles/icons/housing.svg' },		
 	'06.2': { icon: 'styles/icons/community.svg' },
 	'06.3': { icon: 'styles/icons/water.svg' },
