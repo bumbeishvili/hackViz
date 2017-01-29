@@ -1,25 +1,26 @@
 var OpenSpending = OpenSpending || {};
 debugger;
 OpenSpending.getBubbleMapDependencies = function(os_path) {
+    os_path="";
     var result =  [
-        os_path + '/lib/vendor/base64.js',
-        os_path + '/lib/boot.js',
-        os_path + '/lib/vendor/accounting.js',
-        os_path + '/lib/utils/utils.js',
-        os_path + '/lib/aggregator.js',
-        os_path + '/lib/vendor/bubbletree/2.0/bubbletree.js',
-        os_path + '/lib/vendor/vis4.js',
-        os_path + '/lib/vendor/Tween.js',
+        os_path + 'lib/vendor/base64.js',
+        os_path + 'lib/boot.js',
+        os_path + 'lib/vendor/accounting.js',
+        os_path + 'lib/utils/utils.js',
+        os_path + 'lib/aggregator.js',
+        os_path + 'lib/vendor/bubbletree/2.0/bubbletree.js',
+        os_path + 'lib/vendor/vis4.js',
+        os_path + 'lib/vendor/Tween.js',
         '//cdnjs.cloudflare.com/ajax/libs/raphael/2.1.0/raphael-min.js',
-        os_path + '/lib/vendor/kartograph-201301.min.js',
-        os_path + '/lib/vendor/chroma.js',
-        os_path + '/lib/vendor/jquery.qtip.min.js',
-        os_path + '/lib/vendor/jquery.history.js',
-        os_path + '/lib/vendor/bubbletree/1.0/bubbletree.css',
-        os_path + '/lib/vendor/datatables/js/jquery.dataTables.js',
-        os_path + '/lib/vendor/datatables/dataTables.bootstrap.js',
-        os_path + '/app/data_table/openspending.data_table.js',
-        os_path + '/app/bubblemap/map.css',
+        os_path + 'lib/vendor/kartograph-201301.min.js',
+        os_path + 'lib/vendor/chroma.js',
+        os_path + 'lib/vendor/jquery.qtip.min.js',
+        os_path + 'lib/vendor/jquery.history.js',
+         os_path + 'lib/vendor/bubbletree/1.0/bubbletree.css',
+        // os_path + 'lib/vendor/datatables/js/jquery.dataTables.js',
+        // os_path + 'lib/vendor/datatables/dataTables.bootstrap.js',
+        os_path + 'app/data_table/openspending.data_table.js',
+        os_path + 'app/bubblemap/map.css',
         'Data/js/bubblemap.js'
         ];
         console.log(result);
